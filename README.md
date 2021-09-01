@@ -32,23 +32,9 @@ A cleanup script for macOS that runs the following tasks:
 * Clears Gradle caches
 * Deletes Kite logs
 
-## Install Automatically
-
-### Using curl
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/installer.sh)"
-```
-
-### Using wget
-
-```bash
-sh -c "$(wget https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/installer.sh -O -)"
-```
-
 ## Step by Step Install
 
-1. curl -o cleanup https://raw.githubusercontent.com/gabrielibus/mac-cleanup-sh/main/mac-cleanup
+1. `curl -o cleanup https://raw.githubusercontent.com/gabrielibus/mac-cleanup-sh/main/mac-cleanup`
 2. Make it executable: `chmod +x cleanup`
 
 ### Note:
