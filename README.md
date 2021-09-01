@@ -48,9 +48,8 @@ sh -c "$(wget https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/ins
 
 ## Step by Step Install
 
-1. Download: `curl -o cleanup https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/mac-cleanup`
+1. curl -o cleanup https://raw.githubusercontent.com/gabrielibus/mac-cleanup-sh/main/mac-cleanup
 2. Make it executable: `chmod +x cleanup`
-3. Move to make it globally usable: `sudo mv cleanup /usr/local/bin/cleanup`
 
 ### Note:
 If installing with curl you need to call `cleanup` instead of `mac-cleanup`.
