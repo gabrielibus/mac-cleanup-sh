@@ -34,45 +34,26 @@ A cleanup script for macOS that runs the following tasks:
 
 ## Install Automatically
 
-### Using homebrew
-
-```bash
-brew tap fwartner/tap
-brew install fwartner/tap/mac-cleanup
-```
-
 ### Using curl
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/fwartner/mac-cleanup/main/installer.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/installer.sh)"
 ```
 
 ### Using wget
 
 ```bash
-sh -c "$(wget https://raw.githubusercontent.com/fwartner/mac-cleanup/main/installer.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/installer.sh -O -)"
 ```
 
 ## Step by Step Install
 
-1. Download: `curl -o cleanup https://raw.githubusercontent.com/fwartner/mac-cleanup/main/mac-cleanup`
+1. Download: `curl -o cleanup https://raw.githubusercontent.com/gabrielibus/mac-cleanup/main/mac-cleanup`
 2. Make it executable: `chmod +x cleanup`
 3. Move to make it globally usable: `sudo mv cleanup /usr/local/bin/cleanup`
 
 ### Note:
 If installing with curl you need to call `cleanup` instead of `mac-cleanup`.
-
-## Update
-
-```bash
-curl -fsSL "https://raw.githubusercontent.com/fwartner/mac-cleanup/main/installer.sh" | bash -s update
-```
-
-## Uninstall
-
-```bash
-curl -fsSL "https://raw.githubusercontent.com/fwartner/mac-cleanup/main/installer.sh" | bash -s uninstall
-```
 
 ## Usage Options
 
